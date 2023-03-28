@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_heroes",
+  "info": {
+    "displayName": "hero"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

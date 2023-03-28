@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_form_infos",
+  "info": {
+    "displayName": "FormInfo"
+  },
+  "options": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string",
+      "default": "Harold",
+      "required": true
+    },
+    "Asunto": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "default": "hmorillopichardo@gmail.com",
+      "required": true
+    },
+    "Message": {
+      "type": "text",
+      "required": true
+    },
+    "Submit": {
+      "type": "string"
+    }
+  }
+}

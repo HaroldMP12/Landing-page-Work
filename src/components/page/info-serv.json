@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_info_servs",
+  "info": {
+    "displayName": "infoServ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "OurServices": {
+      "type": "string"
+    },
+    "infoServices": {
+      "type": "richtext"
+    },
+    "Button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.button"
+    }
+  }
+}

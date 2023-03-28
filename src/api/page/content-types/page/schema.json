@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "displayName": "hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "description": {
+      "type": "text"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.link"
+    },
+    "Picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "about": {
+      "type": "dynamiczone",
+      "components": [
+        "page.about"
+      ]
+    },
+    "Services": {
+      "type": "dynamiczone",
+      "components": [
+        "page.info-serv"
+      ]
+    },
+    "form": {
+      "displayName": "FormInfo",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.form-info"
+    }
+  }
+}

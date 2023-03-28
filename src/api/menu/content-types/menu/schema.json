@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "LogoCompany": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.link"
+    },
+    "about": {
+      "type": "dynamiczone",
+      "components": []
+    }
+  }
+}

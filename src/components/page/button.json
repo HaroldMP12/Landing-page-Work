@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "displayName": "button"
+  },
+  "options": {},
+  "attributes": {
+    "Next": {
+      "type": "string"
+    },
+    "Previous": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_abouts",
+  "info": {
+    "displayName": "about"
+  },
+  "options": {},
+  "attributes": {
+    "AboutUs": {
+      "type": "string"
+    },
+    "textblockinfo": {
+      "type": "richtext"
+    }
+  }
+}
