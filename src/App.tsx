@@ -20,6 +20,7 @@ const images = [
 
 const App  = () => {
   return (
+
     <ThemeProvider>
     <Navbar />
     <Homepage />
